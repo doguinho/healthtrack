@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100% !important;
+}
+body,
+input,
+button {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-logo {
+    font-family: 'Kanit'!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 800;    
+}
+.bg-green {
+    background: #56ab2f; /* fallback for old browsers */
+
+}
