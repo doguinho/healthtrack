@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 
-    <title>Health Track - Resumo</title>
+    <title>Health Track - Calorias</title>
 </head>
 
 <body>
@@ -32,9 +32,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="dashboard.html">Resumo <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="dashboard.html">Resumo</a>
                 <a class="nav-item nav-link" href="objetivo.html">Objetivo</a>
-                <a class="nav-item nav-link" href="receitas.html">Receitas</a>
+                <a class="nav-item nav-link active" href="receitas.html">Receitas <span
+                        class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="calorias.html">Calorias</a>
                 <a class="nav-item nav-link" href="pesos.html">Pesos</a>
             </div>
@@ -44,30 +45,38 @@
 
     <div class="container">
 
-        <h3 class="pt-4 pb-2 text-white">Resumo</h3>
+        <h3 class="pt-4 pb-2 text-white">Receitas</h3>
 
         <div class="row">
 
             <div class="col-sm mb-3">
 
-                <div class="card">
+                <div class="card mb-4">
+                        <img class="card-img-top" src="images/omelete.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <canvas id="graph1" class="w-100"></canvas>
+                        <h5 class="card-title">Omelete</h5>
+                        <p class="card-text">Omelete é uma excelente fonte de proteínas.</p>
+                        <a href="#" class="btn btn-success">Ver receita</a>
                     </div>
                 </div>
 
             </div>
             <div class="col-sm mb-3">
 
-                <div class="card">
+                <div class="card mb-4">
+                        <img class="card-img-top" src="images/frutas.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <canvas id="graph2" class="w-100"></canvas>
+                        <h5 class="card-title">Salada de Frutas</h5>
+                        <p class="card-text">Uma ótima opção para o lanche da tarde.</p>
+                        <a href="#" class="btn btn-success">Ver receita</a>
                     </div>
                 </div>
 
             </div>
 
         </div>
+
+
     </div>
 
 
@@ -81,9 +90,6 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-
-        <script src="js/dashboard.js"></script>
 
 </body>
 
