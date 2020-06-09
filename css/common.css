@@ -11,13 +11,11 @@ button {
 }
 
 .font-logo {
-    font-family: 'Kanit'!important;
+    font-family: "Kanit" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 800;    
+    font-weight: 800;
 }
 .bg-green {
     background: #56ab2f; /* fallback for old browsers */
-
 }
-
